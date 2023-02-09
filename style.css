@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Itim&display=swap');
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf);
+}
+:root{
+    --cor1:#f5f4d7;
+    --cor2:#951f2b;
+    --cor3:#e0dfb1;
+    --cor4:#a5a36c;
+    --cor5:#535233;
+}
+body{
+    background-color: var(--cor1);
+    margin: 0;
+}
+header{
+    background: linear-gradient(var(--cor2),var(--cor2));
+    height: 20vw;
+    box-shadow: 0px 5px 10px #1a5c3898;
+    max-width: 200vw;
+}
+h1{
+    margin: 0;
+    color: white;
+    font-family: 'Bebas Neue';
+    font-size: 7vw;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 2px 2px 5px #1a5c38b4;
+}
+
+footer{
+    background-color: var(--cor4);
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+main{
+    background-color: white;
+    height: fit-content;
+    margin: 0;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 5px 5px 5px#1a5c3838;
+    margin-bottom: 20px;
+    min-width: 320px;
+    max-width: 800px;
+}
+
+table{
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+    font-family: consolas;
+}
+th{
+    background-color: var(--cor2);
+    color: white;
+}
+input{
+    border: none;
+    background-color: transparent;
+    height: 45px;
+    text-align: center;
+    width: 195px;
+}
+div#container{
+    overflow-x: auto;
+}
