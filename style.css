@@ -40,14 +40,13 @@ footer{
     text-align: center;
     bottom: 0;
     width: 100%;
-    position: fixed;
+    margin-top: 10px;
 }
 main{
     background-color: white;
-    height: fit-content;
-    margin: 0;
+    height: 100%;
     padding: 20px;
-    margin: auto;
+    margin: 0 auto;
     text-align: center;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -79,4 +78,20 @@ input{
 }
 div#container{
     overflow-x: auto;
+}
+input.media{
+    background-color: var(--cor5);
+    color: white;
+    font-family: consolas;
+    width: 50%;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+}
+.media:hover{
+    height: 51px;
+    line-height: 51px;
+    width: 51%;
 }
